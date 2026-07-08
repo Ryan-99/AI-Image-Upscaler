@@ -1,0 +1,28 @@
+# ==== 放大引擎与模型（体积大、第三方产物，不进仓库）====
+bin/
+
+# ==== 打包产物 ====
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+
+# ==== 运行时生成的目录/文件 ====
+output/
+input/*
+!input/.gitkeep
+config.json
+
+# ==== 临时/截图 ====
+_screenshot.png
+_sheet_*.png
+_gray*.png
+_*.ps1
+_*.py
+
+# ==== 系统/IDE ====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
